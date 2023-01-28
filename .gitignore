@@ -1,0 +1,41 @@
+# essentials
+/node_modules
+/.fleet
+/.pnp
+.pnp.js
+.DS_Store
+.DS_Store?
+/coverage
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+/dist
+
+# debug files
+# yarn.lock
+# package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# env files
+.env.*
+!.env.example
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# next-sitemap
+public/sitemap.xml
